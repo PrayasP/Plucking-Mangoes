@@ -115,7 +115,7 @@ function mouseReleased(){
 }
 
 function keyPressed(){
-	if(keyCode === 32){
+	if(keyDown("space")){
 		Matter.Body.setPosition(StoneObj.body,{x:150,y:445});
 		StringObj.attach(StoneObj.body);
 	}
