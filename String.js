@@ -16,6 +16,10 @@ class String{
         this.thread.bodyA = null;
     }
 
+    attach(Lbody){
+        this.thread.bodyA = Lbody;
+    }
+
     display(){
         if(this.thread.bodyA){
         var pointA = this.thread.bodyA.position;
